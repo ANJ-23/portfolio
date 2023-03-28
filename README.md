@@ -2,7 +2,7 @@
 
 ## Description
 
-This website contains my web development portfolio. Both the website and its links showcase my knowledge in full stack web development - ranging from CSS, JavaScript, React, to other frontend and backend applications.
+This website (https://anj-23.github.io/portfolio/) contains my web development portfolio. Both the website and its links showcase my knowledge in full stack web development - ranging from CSS, JavaScript, React, to other frontend and backend applications.
 
 ## Installation
 
