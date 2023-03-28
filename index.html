@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Andrew's Portfolio</title>
+</head>
+
+<!-- 
+    TO-DO:
+
+    (Done) Dev's name
+    (?) recent photo / avatar
+    (Done) (nav) links to sections about them (About Me), their work (GitHub), and contact info
+    (Done) nav links scroll to corresponding section
+    (done) click on "Work" = UI scrolls to titled images of the dev's applications (link my GitHub pages?)
+    (done?) Dev's first app should be larger than others
+    (done) Clicking on app image = goes to that app
+    (done) Should be responsive; elements resize as window resizes
+ -->
+
+<body>
+    <!-- navigation bar -->
+    <header>
+        <h1>Andrew Joo's Portfolio</h1>
+
+        <!-- nav links -->
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- top image (of me?) -->
+    <figure>
+        <!-- width style should be in CSS -->
+        <img class="top-img" src="./assets/images/internet.jpg" alt="Global Internet">
+    </figure>
+
+    <!-- About Me -->
+    <aside id="about">
+        <h2>About Me</h2>
+
+        <section>
+            <p>I am a prospective full-stack web developer who is currently undertaking UMN's coding bootcamp program. Later on, you may see JavaScript, React, and other frontend & backend features on this website.</p>
+        </section>
+    </aside>
+
+    <!-- Past Work -->
+    <aside id="work">
+        <h2>Past Work</h2>
+
+        <article class="wrapper">
+            <figure>
+                <a href="https://github.com/ANJ-23/prework-study-guide" target="_blank">
+                    <img class="first-project" src="./assets/images/book.jpg">
+                    <figcaption>Prework Study Guide</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="https://anj-23.github.io/semantic-html/" target="_blank">
+                    <img src="./assets/images/HTML.webp">
+                    <figcaption>Semantic HTML</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="">
+                    <img src="./assets/images/JavaScript.jpg">
+                    <figcaption>JavaScript</figcaption>
+                </a>
+            </figure>
+        </article>
+    </aside>
+
+    <footer id="contact">
+        <h3>Contact Me</h3>
+        <ul>
+            <li><a href="">(111) 111-1111</a></li>
+            <li><a href="">thismail@email.com</a></li>
+            <li><a href="https://github.com/ANJ-23">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
